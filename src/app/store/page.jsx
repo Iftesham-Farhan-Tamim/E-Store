@@ -8,8 +8,6 @@ export default function StorePage() {
   )
 }
 
-
-
 const ProductListing = async () => {
   const data = await getProducts();
   return <div className='col-span-4 grid grid-cols-3 gap-5 mt-3'>

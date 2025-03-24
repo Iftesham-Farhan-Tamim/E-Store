@@ -15,7 +15,6 @@ export default function ProductBox({ product }) {
           src={product.image}
           className={`${styles.productImage} w-full h-48 object-cover rounded-md`}
         />
-
       </Link>
       <div className='mt-4'>
         <h3 className='text-sm font-semibold text-gray-800 line-clamp-3'>
